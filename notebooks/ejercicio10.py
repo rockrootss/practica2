@@ -1,28 +1,12 @@
-# Simulación de partidas y ranking en shooter online
 
-# Simule varias partidas de un juego de disparos y genere un ranking basado en el puntaje
-# total de cada jugador. Se utilizará el siguiente sistema de puntuación:
 
-#    Acción    Puntos
-#    Kill         3
-#    Asistencia   1
-#    Muerte      -1
+import sys
+import os
 
-# Dado el siguiente conjunto de rondas:
+#Obtener la ruta absoluta del directorio raiz del proyecto 
+sys.path.append(os.path.abspath("../practica2/src"))
 
-# Imprima las tablas de resultados luego de la inserción de cada una de las rondas pudiendo
-# ver el progreso en el equipo.
-
-# Además cada ronda debe tener un MVP (Mejor Jugador del Partido/ronda) basado en su
-# puntuación. La cantidad de veces que el jugador ha sido MVP también se debe contabilizar
-# Se debe imprimir el total de kills, asistencias, muertes, cantidad de MVP y puntos totales. La
-# tabla tienen que estar en orden decreciente por los puntos totales.
-# Salida esperada:
-
-# Nota: No hace falta que la tabla se vea exactamente igual. Lo importante es que tengas los
-# valores correctos y se entienda.
-
-from src.ejercicio10utilidades import *
+from funciones import *
 
 rounds = [
 {
