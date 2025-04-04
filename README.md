@@ -1,6 +1,7 @@
 # Proyecto de Estadísticas de Jugadores
 
-    Este proyecto utiliza Python3.12.9 para calcular estadísticas de los jugadores en un juego
+    Este proyecto utiliza Python3.12.9 para calcular estadísticas de los jugadores en un juego. Informa de forma acumulativa ronda por ronda y
+    al final imprime los resultados acumulados de todas las rondas + MVPS
 
 ## Instalación
 
