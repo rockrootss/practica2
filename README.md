@@ -1,36 +1,46 @@
-# Proyecto estadisticas de jugadores
+# Proyecto de Estadísticas de Jugadores
 
-# En este proyecto uso Python version 3.12.9
+    Este proyecto utiliza Python3.12.9 para calcular estadísticas de los jugadores en un juego
 
-- Ejecutar desde Visual Studio Code:
+## Instalación
 
-- Instalar Python version 3.12.9
+    Para comenzar con el proyecto, seguir los siguientes pasos:
 
-- Descargar el proyecto desde github
-    - con el comando: git clone https://github.com/rockrootss/practica2.git
+1. **Clonar el repositorio**:
+   en una terminal gitbash
+   
+   - git clone https://github.com/rockrootss/practica2.git
+   - cd practica2
 
-- Posicionarse en la carpeta donde esta el proyecto desde la terminal (cd "ruta del archivo") 
-- Usar el comando : pip install -r requierements.txt (para poder instalar las librerias que necesita el proyecto) 
-- Abrir la carpeta del proyecto en Visual Studio Code 
-- Abrir el archivo ej10.ipynb, que se encuentra en practica2/notebooks 
-- Ejecutar el codigo(Hay un boton de PLAY en la parte superior izquierda).
-- Selecionar el kernel
+2. **Instalar dependencias**
+   - pip install -r requirements.txt
 
-- Tambien se puede abrir desde un entorno virtual:
+3. **Abrir la carpeta del proyecto en Visual Studio Code**
 
-Instalar Python version 3.12.9
+4. **Ejecutar jupyter notebook**
+   - Abre ej10.ipynb dentro de la carpeta notebooks.
+   - Selecciona el kernel adecuado y ejecuta el código.
 
-descargar el proyecto desde github
+##### USO DE ENTORNO VIRTUAL
+Si prefieres usar un entorno virtual, sigue estos pasos:
 
-ir a la carpeta donde esta el proyecto desde la terminal (cd "ruta del archivo") -poner el comando : pip install -r requierements.txt (para poder instalar las librerias que necesita el proyecto) -abrir jupyter notebook -en la pagina de jupyter busco el archivo ej10.ipynb y ejecutar
+1. * Crear el entorno virtual :
+    en una terminal gitbash
+    Usar el comando: python -m venv venv
 
--tambien puede instalar el entorno virtual para el proyeccto desde la terminar :
+2. * Activar el entorno virtual:
 
--con el codigo : python -m venv venv
+    En windows:
 
--despues ejecuta :
+       - source venv\Scripts\activate
 
--source venv/script/activate (en el caso de windows) para activarlo
+    En Linux/macOS
 
-- y si desea desactivarlo es con el comando
-    - deactivate
+       - source venv/bin/activate
+
+3. * Instalar las dependencias en el entorno virtual:
+       - pip install -r requirements.txt
+   
+4. * Desactivar entorno virtual
+       - deactivate
+
