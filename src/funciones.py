@@ -32,3 +32,4 @@ def generar_ranking_final(stats, mvp_count):
     print("Ranking Final:")
     for player, data in final_ranking:
         print(f"Jugador: {player} , Kills:{data['kills']} , Assists:{data['assists']} , Deaths:{data['deaths']} , MVP: {mvp_count[player]} , Puntos:{data['points']}")
+
